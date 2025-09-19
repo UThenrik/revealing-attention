@@ -1,55 +1,41 @@
 # revealing-attention
 
-
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Paper-Revealing%20Human%20Internal%20Attention%20Patterns-blueviolet?style=for-the-badge&logo=arxiv" alt="Paper Badge"/>
+  <a href="https://arxiv.org/pdf/2504.11118" target="_blank">
+    <img src="https://img.shields.io/badge/Paper-Revealing%20Human%20Internal%20Attention%20Patterns-blueviolet?style=for-the-badge&logo=arxiv" alt="Paper Badge"/>
+  </a>
 </p>
 
 <h2 align="center"><b>Revealing Human Internal Attention Patterns from Gameplay Analysis for Reinforcement Learning</b></h2>
 
 <p align="center">
   <i>
-    We predict human internal attention from gameplay data alone.<br>
+    Predicting human internal attention from gameplay data alone.<br>
     <b>No eye-tracking required.</b> <br>
-    We use these attention maps to improve RL agent performance - creating human internal attention-guided RL agents!
+    These attention maps can be used to improve RL agent performance - creating human internal attention-guided RL agents!
   </i>
 </p>
 
 <img src="intro.png" width="300"/>
 
-<p align="left">
-  <div style="display: inline-block; text-align: center; margin-right: 10px;">
-    <div>Revealed Attention</div>
-    <img src="gifs/Smooth/Overlay_Human_CTR_Freeway.gif" width="150"/>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <div>Eye tracking</div>
-    <img src="gifs/Smooth/Overlay_Human_TIOA_Freeway.gif" width="150"/>
-  </div>
-</p>
-
-<p align="left">
-  <div style="display: inline-block; text-align: center; margin-right: 10px;">
-    <div>Revealed Attention</div>
-    <img src="gifs/Smooth/Overlay_Human_CTR_Enduro.gif" width="150"/>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <div>Eye tracking</div>
-    <img src="gifs/Smooth/Overlay_Human_TIOA_Enduro.gif" width="150"/>
-  </div>
-</p>
-
-<p align="left">
-  <div style="display: inline-block; text-align: center; margin-right: 10px;">
-    <div>Revealed Attention</div>
-    <img src="gifs/Smooth/Overlay_Human_CTR_MsPacman.gif" width="150"/>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <div>Eye tracking</div>
-    <img src="gifs/Smooth/Overlay_Human_TIOA_MsPacman.gif" width="150"/>
-  </div>
-</p>
+<table>
+  <tr>
+    <td align="center"><b>Revealed Attention</b></td>
+    <td align="center"><b>Eye tracking</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Freeway.gif" width="150"/></td>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Freeway.gif" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Enduro.gif" width="150"/></td>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Enduro.gif" width="150"/></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_MsPacman.gif" width="150"/></td>
+    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_MsPacman.gif" width="150"/></td>
+  </tr>
+</table>
 
 arXiv: https://arxiv.org/abs/2504.11118
 ## How to Cite
