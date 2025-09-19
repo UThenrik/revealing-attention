@@ -1,6 +1,55 @@
 # revealing-attention
 
-This is the code repository corresponding to the paper "**Revealing Human Internal Attention Patterns from Gameplay Analysis for Reinforcement Learning**"
+
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Paper-Revealing%20Human%20Internal%20Attention%20Patterns-blueviolet?style=for-the-badge&logo=arxiv" alt="Paper Badge"/>
+</p>
+
+<h2 align="center"><b>Revealing Human Internal Attention Patterns from Gameplay Analysis for Reinforcement Learning</b></h2>
+
+<p align="center">
+  <i>
+    We predict human internal attention from gameplay data alone.<br>
+    <b>No eye-tracking required.</b> <br>
+    We use these attention maps to improve RL agent performance - creating human internal attention-guided RL agents!
+  </i>
+</p>
+
+<img src="intro.png" width="300"/>
+
+<p align="left">
+  <div style="display: inline-block; text-align: center; margin-right: 10px;">
+    <div>Revealed Attention</div>
+    <img src="gifs/Smooth/Overlay_Human_CTR_Freeway.gif" width="150"/>
+  </div>
+  <div style="display: inline-block; text-align: center;">
+    <div>Eye tracking</div>
+    <img src="gifs/Smooth/Overlay_Human_TIOA_Freeway.gif" width="150"/>
+  </div>
+</p>
+
+<p align="left">
+  <div style="display: inline-block; text-align: center; margin-right: 10px;">
+    <div>Revealed Attention</div>
+    <img src="gifs/Smooth/Overlay_Human_CTR_Enduro.gif" width="150"/>
+  </div>
+  <div style="display: inline-block; text-align: center;">
+    <div>Eye tracking</div>
+    <img src="gifs/Smooth/Overlay_Human_TIOA_Enduro.gif" width="150"/>
+  </div>
+</p>
+
+<p align="left">
+  <div style="display: inline-block; text-align: center; margin-right: 10px;">
+    <div>Revealed Attention</div>
+    <img src="gifs/Smooth/Overlay_Human_CTR_MsPacman.gif" width="150"/>
+  </div>
+  <div style="display: inline-block; text-align: center;">
+    <div>Eye tracking</div>
+    <img src="gifs/Smooth/Overlay_Human_TIOA_MsPacman.gif" width="150"/>
+  </div>
+</p>
 
 arXiv: https://arxiv.org/abs/2504.11118
 ## How to Cite
@@ -26,5 +75,6 @@ Notebooks:
 2. Autoencoder training
 3. Construction of temporally-integrated overt attention (TIOA) target map and network training
 4. Contextualized task-relevant (CTR) attention networks and action predictors training
+5. Training of the plain and attention-guided reinforcement learning agents
 
 Functions, models, training classes, utils in /src
