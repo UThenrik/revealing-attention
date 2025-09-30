@@ -16,34 +16,40 @@
   </i>
 </p>
 
-<img src="intro.png" width="300"/>
+<p align="center">
+  <img src="intro.png" width="300"/>
+</p>
 
-<table>
-  <tr>
-    <td align="center"><b>Revealed Attention</b></td>
-    <td align="center"><b>Eye tracking</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Freeway.gif" width="150"/></td>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Freeway.gif" width="150"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Enduro.gif" width="150"/></td>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Enduro.gif" width="150"/></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_MsPacman.gif" width="150"/></td>
-    <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_MsPacman.gif" width="150"/></td>
-  </tr>
-</table>
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><b>Revealed Attention</b></td>
+      <td align="center"><b>Eye tracking</b></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Freeway.gif" width="150"/></td>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Freeway.gif" width="150"/></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_Enduro.gif" width="150"/></td>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_Enduro.gif" width="150"/></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_CTR_MsPacman.gif" width="150"/></td>
+      <td align="center"><img src="gifs/Smooth/Overlay_Human_TIOA_MsPacman.gif" width="150"/></td>
+    </tr>
+  </table>
+</p>
 
-arXiv: https://arxiv.org/abs/2504.11118
+<p align="center">
+  arXiv: <a href="https://arxiv.org/abs/2504.11118">https://arxiv.org/abs/2504.11118</a>
+</p>
 ## How to Cite
 
 If you use this code or refer to our work, please cite the following:
 
-@misc{krauss2025revealingcovertattentionanalyzing,
-      title={Revealing Covert Attention by Analyzing Human and Reinforcement Learning Agent Gameplay}, 
+@misc{krauss2025revealinghumaninternalattention,
+      title={Revealing Human Internal Attention Patterns from Gameplay Analysis for Reinforcement Learning}, 
       author={Henrik Krauss and Takehisa Yairi},
       year={2025},
       eprint={2504.11118},
